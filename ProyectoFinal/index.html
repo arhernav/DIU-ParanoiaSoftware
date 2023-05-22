@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Event List</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Event List</h1>
+    <div id="eventList"></div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <script>
+    var username = 'apidocs';
+    var password = 'm;IKOZ}K41=i:n|I^+Gm';
+    var token = btoa(username + ':' + password);
+    var config = {
+      headers: {
+        'Authorization': 'Basic ' + token
+      }
+    };
+
+    axios.get('https://api.diu-server.net/v1/events', config)
+      .then(function (response) {
+        var eventData = response.data;
+        var eventListContainer = document.getElementById('eventList');
+
+        // Loop through the eventData and generate HTML for each event
+        eventData.forEach(function (event) {
+          var card = '<div class="card">' +
+                       '<img src="' + event.image + '" class="card-img-top" alt="Event Image">' +
+                       '<div class="card-body">' +
+                         '<h5 class="card-title">' + event.name + '</h5>' +
+                         '<p class="card-text">' + event.description + '</p>' +
+                         '<a href="' + event.detailsLink + '" class="btn btn-primary">View Details</a>' +
+                       '</div>' +
+                     '</div>';
+
+          eventListContainer.innerHTML += card;
+        });
+      })
+      .catch(function (error) {
+        console.error(error);
+      });
+  </script>
+</body>
+</html>
