@@ -2,6 +2,7 @@
     background-color: #272D2D;
 }
 
+
 .navbar a{
     color: white;
     font-size: xx-large;
@@ -11,3 +12,18 @@
     font-size: x-large;
 }
 
+.fondo-org{
+    background-image: url(../ProyectoFinal/img/sesionOrg.png);
+    background-repeat: no-repeat;
+    height: 1800px;
+    background-attachment: fixed;
+    background-size: cover;
+    color:white;
+    text-align: center;
+    font-size: xx-large;
+    
+}
+
+.titulo-Org{
+    color: white;
+}
