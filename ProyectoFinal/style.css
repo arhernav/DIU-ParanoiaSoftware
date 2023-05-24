@@ -15,7 +15,7 @@
 .fondo-org{
     background-image: url(../ProyectoFinal/img/sesionOrg.png);
     background-repeat: no-repeat;
-    height: 1800px;
+    height: 1200px;
     background-attachment: fixed;
     background-size: cover;
     color:white;
@@ -26,4 +26,10 @@
 
 .titulo-Org{
     color: white;
+}
+
+.opciones-img {
+  display: flex;
+  justify-content: center;
+  font-size: x-large;
 }
