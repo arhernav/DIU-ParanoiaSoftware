@@ -193,3 +193,69 @@ body{
  .btn{
      border-radius: 25px;
  }
+
+
+.events-container {
+    background-image: url(img/eventbg3.svg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 100vh;
+}
+
+.cont-cards {
+    padding: 20px;
+}
+
+.card-s {
+    width: 18rem;
+}
+
+.img-card {
+    max-width: 100%;
+    max-height: 200px;
+}
+
+.texto-card {
+    height: 140px;
+    text-align: justify;
+    color: white;
+}
+
+.card-btn-editar {
+    background-color: transparent;
+    border: 1px solid #ACE894;
+    color: #ACE894;
+}
+
+.card-btn-editar:hover {
+    background-color: #ACE894;
+    color: white;
+}
+
+.card-btn-eliminar { 
+    background-color: #C00202;
+    color: white;
+}
+
+.card-btn-eliminar:hover {
+    background-color: #cf0202;
+    color: white;
+}
+
+.add-btn{ 
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    width: 400px;
+}
+
+.add-btn:hover {
+    background-color: #90dff38a;
+    color: 90E0F3;
+    border: 1px solid 90E0F3;
+}
+
+.btn{
+    border-radius: 25px;
+}
