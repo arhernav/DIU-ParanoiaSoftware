@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;700&display=swap');
+
+/* revisar asietnp*/
+
+
+.backblue{
+    background-color: blue;
+}
+
+.input_hoover{
+
+    transition: box-shadow 0.3s ease;
+}
+
+.input_hoover:hover{
+
+    box-shadow: 0 2px 4px rgb(255, 255, 255); 
+
+}
+
+.btn{
+
+
+    background-color: #ACE894;
+    width: 100%;
+}
+
+.check-btn{ 
+    border: 1px solid white;
+    width: 100%;
+}
+
+.check-btn:hover {
+    background-color: #90E0F3;
+    border: 1px solid 90E0F3;
+}
