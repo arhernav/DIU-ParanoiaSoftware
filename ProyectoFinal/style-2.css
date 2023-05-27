@@ -34,3 +34,86 @@
     background-color: #90E0F3;
     border: 1px solid 90E0F3;
 }
+
+.fondo-registro{
+    padding-top:70px;
+    font-family: 'Inter', sans-serif;
+    background-image: url(../ProyectoFinal/img/concierto3.jpg);
+    background-repeat: no-repeat;
+    height: 900px;
+    background-attachment: fixed;
+    background-size: cover;
+    color:white;
+    text-align: center;
+    font-size: 300%;
+    
+}
+
+.card-btn-eliminar { 
+    background-color: #ACE894;
+    color: white;
+}
+
+.card-btn-eliminar:hover {
+    background-color: #90E0F3;
+    color: white;
+}
+
+.card-btn-registar { 
+    background-color: #90E0F3;
+    color: white;
+}
+
+.card-btn-registrar:hover {
+    background-color:#ACE894;
+    color: white;
+}
+
+.card-btn {
+    background-color: transparent;
+    border: 1px solid #ACE894;
+    color: #ACE894;
+}
+
+.card-btn:hover {
+    background-color: #ACE894;
+    color: white;
+}
+
+.backgroud{
+    background-image: url(img/concierto7.png);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+.card-s {
+    width: 18rem;
+}
+
+.img-card {
+    max-width: 100%;
+    max-height: 200px;
+}
+
+.texto-card {
+    height: 140px;
+    text-align: justify;
+    color: white;
+}
+
+
+.card_hoover{
+
+    transition: box-shadow 0.3s ease;
+}
+
+.card_hoover:hover{
+
+    box-shadow: 0 5px 40px rgb(255, 255, 255); 
+    
+
+}
