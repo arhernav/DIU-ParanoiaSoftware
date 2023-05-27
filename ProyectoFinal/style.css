@@ -259,3 +259,32 @@ body{
 .btn{
     border-radius: 25px;
 }
+
+ .vertical-center {
+    margin: 20px;
+    position: relative;
+    top: 20%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+
+  .center{
+    margin: auto;
+    width: 100%;
+    border: 3px solid rgb(31, 28, 28);
+    background-color: #90dff3;
+    padding: 10px;
+}
+.block{
+    margin: 50px;
+    width: 50%;
+    border: 3px solid rgb(31, 28, 28);
+    background-color: #272D2D;
+    padding: 10px;
+}
+
+.texto{
+    margin: 10px;
+    text-align: left;
+    color: white;
+}
