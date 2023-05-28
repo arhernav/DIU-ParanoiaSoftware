@@ -5,14 +5,6 @@
 }
 
 
-.navbar a {
-    font-size: x-large;
-}
-
-.navbar-text {
-    font-size: x-large;
-}
-
 .fondo-org {
     padding-top: 70px;
     background-image: url(../ProyectoFinal/img/sesionOrg.png);
@@ -180,7 +172,7 @@ body {
     color: white;
 }
 
-.add-btn {
+.add-btn {  
     background-color: black;
     color: white;
     border: 1px solid white;
@@ -255,7 +247,7 @@ body {
 
 .add-btn:hover {
     background-color: #90dff38a;
-    color: 90E0F3;
+    color: #90E0F3;
     border: 1px solid 90E0F3;
 }
 
@@ -291,4 +283,18 @@ body {
     margin: 10px;
     text-align: left;
     color: white;
+}
+
+.btn-inicio {
+    background-color: rgba(255, 255, 255, 0.061);
+    margin: 10px;
+    color: white;
+    border: 1px solid white;
+    width: 400px;
+}
+
+.btn-inicio:hover {
+    background-color: #ace89469;
+    color: #8fe86c;
+    border: 1px solid 90E0F3;
 }
