@@ -54,6 +54,20 @@
 
 }
 
+.fondo-emp{
+  padding-top:70px;
+  font-family: 'Inter', sans-serif;
+  background-image: url(../ProyectoFinal/img/gestor-emp.png);
+  background-repeat: no-repeat;
+  height: 900px;
+  background-attachment: fixed;
+  background-size: cover;
+  color:white;
+  text-align: center;
+  font-size: 300%;
+
+}
+
 .titulo-Org{
     color: white;
 }
@@ -68,8 +82,18 @@
   background-color: #272D2D;
   display: flex;
   align-items: center;
+  padding: 10px;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.container-emp {
+  background-color: #272D2D;
+  display: flex;
+  align-items: center;
   padding: 5px;
   justify-content: space-between;
+
 }
 
 .seccion-izq {
@@ -117,6 +141,24 @@
   padding: 5px 10px;  
   background-color: #cf0202;
   color: black;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: x-large;
+}
+
+.emp-button{
+  padding: 5px 10px;  
+  background-color: #90E0F3;
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: x-large;
+}
+
+.emp-button:hover{
+  padding: 5px 10px;  
+  background-color: #83cbdd;
+  color: white;
   text-decoration: none;
   font-weight: bold;
   font-size: x-large;
