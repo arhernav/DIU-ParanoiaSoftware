@@ -59,6 +59,7 @@ body {
 
 
 .button-animated {
+<<<<<<< Updated upstream
     width: 30%;
     position: relative;
     padding: 10px 15px;
@@ -83,6 +84,32 @@ body {
 }
 
 .button-animated span:nth-child(1) {
+=======
+   width: 30%;
+   position: relative;
+   padding: 10px 15px;
+   border: none;
+   outline: none;
+   background: #90E0F3;
+   font-family: sans-serif;
+   color: #272d2d;
+   cursor: pointer;
+   transition: .5s;
+   overflow: hidden;
+}
+
+.button-animated:hover {
+    color: #624b4b;
+}
+
+.button-animated span {
+    position: absolute;
+    background: white;
+    transition: .5s;
+}
+
+.button-animated span:nth-child(1){
+>>>>>>> Stashed changes
     width: 100%;
     height: 3px;
     top: 0;
@@ -90,23 +117,35 @@ body {
 
 }
 
+<<<<<<< Updated upstream
 .button-animated span:nth-child(2) {
+=======
+.button-animated span:nth-child(2){
+>>>>>>> Stashed changes
     width: 100%;
     height: 3px;
     bottom: 0;
     right: -100%;
 
 }
+<<<<<<< Updated upstream
 
 .button-animated span:nth-child(3) {
+=======
+.button-animated span:nth-child(3){
+>>>>>>> Stashed changes
     width: 3px;
     height: 100%;
     bottom: -100%;
     left: 0;
 
 }
+<<<<<<< Updated upstream
 
 .button-animated span:nth-child(4) {
+=======
+.button-animated span:nth-child(4){
+>>>>>>> Stashed changes
     width: 3px;
     height: 100%;
     top: -100%;
@@ -114,6 +153,7 @@ body {
 
 }
 
+<<<<<<< Updated upstream
 .button-animated:hover span:nth-child(1) {
     left: 0;
 }
@@ -127,11 +167,27 @@ body {
 }
 
 .button-animated:hover span:nth-child(4) {
+=======
+.button-animated:hover span:nth-child(1){
+    left: 0;
+}
+
+.button-animated:hover span:nth-child(2){
+    right: 0;
+}
+
+.button-animated:hover span:nth-child(3){
+    bottom: 0;
+}
+
+.button-animated:hover span:nth-child(4){
+>>>>>>> Stashed changes
     top: 0;
 }
 
 
 .events-container {
+<<<<<<< Updated upstream
     background-color: #272d2d9a;
     background-image: url(img/eventbg3.svg);
     background-size: cover;
@@ -199,6 +255,8 @@ body {
 
 
 .events-container {
+=======
+>>>>>>> Stashed changes
     background-image: url(img/eventbg3.svg);
     background-size: cover;
     background-position: center;
@@ -246,7 +304,11 @@ body {
     color: white;
 }
 
+<<<<<<< Updated upstream
 .add-btn {
+=======
+.add-btn{
+>>>>>>> Stashed changes
     background-color: transparent;
     color: white;
     border: 1px solid white;
@@ -259,6 +321,7 @@ body {
     border: 1px solid 90E0F3;
 }
 
+<<<<<<< Updated upstream
 .btn {
     border-radius: 25px;
 }
@@ -292,3 +355,8 @@ body {
     text-align: left;
     color: white;
 }
+=======
+.btn{
+    border-radius: 25px;
+}
+>>>>>>> Stashed changes

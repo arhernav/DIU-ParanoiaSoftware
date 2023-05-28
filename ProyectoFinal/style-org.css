@@ -40,6 +40,19 @@
     
 }
 
+.fondo-inventario{
+    padding-top:70px;
+    font-family: 'Inter', sans-serif;
+    background-image: url(../ProyectoFinal/img/fiesta-inventario.png);
+    background-repeat: no-repeat;
+    height: 900px;
+    background-attachment: fixed;
+    background-size: cover;
+    color:white;
+    text-align: center;
+    font-size: 300%;
+
+}
 
 .titulo-Org{
     color: white;
@@ -48,5 +61,63 @@
 .opciones-img {
   display: flex;
   justify-content: center;
+  font-size: x-large;
+}
+
+.container {
+  background-color: #272D2D;
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  justify-content: space-between;
+}
+
+.seccion-izq {
+  
+}
+
+.object-name {
+  font-weight: bold;
+  font-size: 80%;
+}
+
+.seccion-der {
+  display: flex;
+  gap: 10px;
+}
+
+.add-button {
+  padding: 5px 10px;
+  background-color: #ACE894;
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: x-large;
+}
+
+.add-button:hover {
+  padding: 5px 10px;
+  background-color: #6e943d;
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: x-large;
+}
+
+.delete-button{
+  padding: 5px 10px;  
+  background-color: #6C1717;
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: x-large;
+}
+
+.delete-button:hover{
+  padding: 5px 10px;  
+  background-color: #cf0202;
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
   font-size: x-large;
 }
